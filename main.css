@@ -1,0 +1,62 @@
+* {
+    font-family: "Poppins", sans-serif;
+    outline: none;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+body{
+    padding-top: 4em;
+    padding-bottom: 4em!important;
+}
+
+i,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 !important;
+}
+
+.img-div{
+    background-color: #ffcc00e8;
+    opacity: 0.4;
+}
+
+.shadow{
+    box-shadow: 0 0 8px #000;
+    margin: auto;
+}
+
+.experties>div{
+    min-width: 4em;
+    max-width: fit-content;
+}
+
+@media only screen and (max-width: 750px){
+    body{
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        font-size: 0.6em;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    body{
+        font-size: 0.55em;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    body{
+        font-size: 0.55em;
+    }
+}
