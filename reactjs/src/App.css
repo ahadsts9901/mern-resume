@@ -52,6 +52,17 @@ h6 {
   background-image: url("../src/assets/icons/pinecone.png");
 }
 
+.triangle {
+  width: 8em;
+  height: 8em;
+  background-color: white;
+  clip-path: polygon(100% 0, 100% 100%, 0 0);
+  color: #21212f;
+  font-weight: bold;
+  font-size: 1em;
+  border: 2px solid #21212f;
+}
+
 @media (max-width: 750px) {
   body {
     font-size: 0.8em;
@@ -61,6 +72,22 @@ h6 {
 @media (max-width: 600px) {
   body {
     font-size: 0.6em;
+  }
+
+  .experties {
+    gap: 0.5em;
+  }
+
+  .experties p {
+    padding: 0.3em;
+  }
+
+  .triangle p {
+    padding-right: 6px;
+  }
+
+  .triangle p.pad-tri {
+    padding-top: 4px;
   }
 }
 
